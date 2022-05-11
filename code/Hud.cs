@@ -51,7 +51,7 @@ namespace BoxCrash
 		public HelpPanel()
 		{
 			ShootBlastLabel = Add.Label( $"{Input.GetButtonOrigin( BoxCrashGame.ShootBlastButton ).ToUpper()} to shoot a blast of boxes" );
-			ShootSingleLabel = Add.Label( $"{Input.GetButtonOrigin( BoxCrashGame.ShootSingleButton ).ToUpper()} to shoot a huge stream of boxes" );
+			ShootSingleLabel = Add.Label( $"{Input.GetButtonOrigin( BoxCrashGame.ShootStreamButton ).ToUpper()} to shoot a huge stream of boxes" );
 			ResetLabel = Add.Label( $"{Input.GetButtonOrigin( BoxCrashGame.ResetButton ).ToUpper()} to reset" );
 		}
 	}

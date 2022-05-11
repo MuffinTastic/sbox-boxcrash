@@ -20,7 +20,7 @@ namespace BoxCrash
 		public static BoxCrashGame Instance => Current as BoxCrashGame;
 
 		public static InputButton ShootBlastButton => InputButton.Attack1;
-		public static InputButton ShootSingleButton => InputButton.Attack2;
+		public static InputButton ShootStreamButton => InputButton.Attack2;
 		public static InputButton ResetButton => InputButton.Reload;
 
 		[Net] public int BoxResets { get; private set; } = 0;

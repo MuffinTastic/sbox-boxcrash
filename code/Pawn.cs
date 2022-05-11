@@ -53,11 +53,11 @@ namespace BoxCrash
 
 			if ( IsServer )
 			{
-				if (Input.Pressed( BoxCrashGame.ShootBlastButton ) )
+				if (Input.Down( BoxCrashGame.ShootStreamButton ) )
 				{
 					ShootBoxes();
 				}
-				else if ( Input.Down( BoxCrashGame.ShootSingleButton ) )
+				else if ( Input.Pressed( BoxCrashGame.ShootBlastButton ) )
 				{
 					ShootBoxes();
 				}
