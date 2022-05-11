@@ -1,0 +1,14 @@
+{
+  "Title": "boxcrash",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "boxcrash",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": "Sandbox",
+  "Metadata": {}
+}
