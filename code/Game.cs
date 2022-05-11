@@ -74,6 +74,8 @@ namespace BoxCrash
 
 				BoxResets++;
 				TotalDeletedBoxes += count;
+
+				Log.Trace( $"Reset {count} boxes [total: {TotalDeletedBoxes} boxes over {BoxResets} resets]" );
 			}
 		}
 	}
